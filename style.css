@@ -4,28 +4,26 @@
 }
 
 .menu{ /* style for the menu */	
-	/* background: #050B2D; */
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.menu ul{ /* style for the content of the navigation bar */
+	min-width: 50px;
 	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 }
 
 .logo{ /* style for the logo */
-    position: fixed;
-	left: 150px;
-    float: left;
-	height: 60px;
-    padding-top: 7px;
-}
-
-.menu ul{ /* style for the content of the navigation bar */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0px;
-	position: relative;
+	height: 70%;
 }
 
 a{ /* style for individual items of the navigation bar */
@@ -41,29 +39,24 @@ a:hover{ /* style when hovering */
 	color: white;
 }
 
-.body{ /* style for the first backgorund image */
-	margin: 0px;
+#home{
+	height: 480px;
 	background: url(bg.png);
 	background-position: center;
 	background-size: cover;
-	background-repeat: repeat;
-	align-items: center;
-	height: 2160px;
-	position: relative;
 }
 
 .photo{
-	height: 450px;
-	transform: translate(120%, 20%);
-}
-
-.home{
-	height: 540px;
+	height: 90%;
+	left: 500px;
+	top: 50px;
+	position: relative;
+	
 }
 
 .hello{ /* style for name*/
 	color: white;
-	font-family: Verdana, sans-serif;
+	font-family: 'Times New Roman', Times, serif, sans-serif;
 	font-size: 56px;
 	letter-spacing: 15px;
 	position: absolute;
@@ -75,20 +68,20 @@ a:hover{ /* style when hovering */
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 72px;
-	letter-spacing: 15px;
+	letter-spacing: 10px;
 	position: absolute;
 	top: 200px;
-	left: 260px;
+	left: 210px;
 }
 
 .im{
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 24px;
-	letter-spacing: 6px;
+	letter-spacing: 3px;
 	position: absolute;
 	top: 200px;
-	right: 600px;
+	right: 610px;
 }
 
 .name{ /* style for name*/
@@ -98,42 +91,108 @@ a:hover{ /* style when hovering */
 	letter-spacing: 7px;
 	position: absolute;
 	top: 230px;
-	right: 125px;
+	right: 75px;
+	font-weight: bold;
 }
 
-.eme1{ /* style for name*/
+.desc1{ /* style for name*/
 	color: white;
-	font-family: Verdana, sans-serif;
-	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
 	letter-spacing: 4px;
 	position: absolute;
 	top: 300px;
-	right: 520px;
+	right: 200px;
 }
 
-#home{
-	height: 450px;
+.desc2{ /* style for name*/
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+	letter-spacing: 4px;
+	position: absolute;
+	top: 320px;
+	right: 210px;
 }
 
 #work{
-	/* background: black; */
-	height: 750px;
-	/* padding-top: 200px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 700px;
+	background: url(bg1.png);
+	background-position: center;
+	background-size: cover;
 }
 
 .project{
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 38px;
-	padding-top: 80px;
-	padding-left: 150px;
 	letter-spacing: 10px;
+	position: absolute;
+	top: 535px;
+	left: 155px;
+	font-weight: bold;
 }
 
-.img_proj ul{ /* style for the content of the navigation bar */
+hr{ /* sets the spacing for the items */
+	background:none;
+	clear:both;
+	float:none;
+	width:100%;
+	height:1px;
+	border:none;
+	margin:-1px 0;
+}
+
+.img_proj{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0px;
-	position: relative;
+	text-align: center;
 }
+
+.img_proj ul{ /* style for the content of the navigation bar */
+	list-style: none;
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.img_proj ul li{
+	background-size: cover;
+	padding: auto;
+}
+.cmsc12{
+	background-image: url(img12.png);
+	padding: 215px 78px;
+}
+.cmsc12:hover{
+	background-image: url(12_2.png);
+}
+
+
+.cmsc22{
+	background-image: url(img22.png);
+	padding: 215px 102px;
+}
+
+.cmsc22:hover{
+	background-image: url(22_2.png);
+}
+
+.cmsc150{
+	background-image: url(img150.png);
+	padding: 215px 126px;
+}
+
+.cmsc150:hover{
+	background-image: url(150_2.png);
+}
+
