@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- TITLE of the webpage
+            Inserted the link of the CSS file -->
         <title>Nadine Anareta - Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <!-- a div for the navigation bar at the top 
+            a functional navigation bar with linked sections-->
         <div class="menu">
             <ul>
                 <img class="logo" src="naaa logo.png">
@@ -15,87 +19,105 @@
                 <a href="#contact">contact</a>
             </ul>
         </div>
-            <div id="home">
-                <div class="hello_world">
-                    <p class="hello">hello</p>
-                    <p class="world">WORLD!</p>
-                </div>
-                <div class="photo"><img class="img" src="nadz.png"></div>
-                <div class="description">
-                    <p class="im">i'm</p>
-                    <p class="name">NADINE ANARETA</p>
-                    <p class="desc">a bs computer science student</p>
-                </div>
+        <!-- a div section for the home or first section -->
+        <div id="home">
+            <!-- div for the hello world text -->
+            <div class="hello_world">
+                <p class="hello">hello</p>
+                <p class="world">WORLD!</p>
             </div>
-            <div id="work">
-                <div class="project">PROJECTS</div>
-                <div class="img_proj">
-                    <div class="img_list">
-                        <div class="cmsc12">
-                            <a class="click" href="https://github.com/nadineanareta/cmsc12-project" target="_blank"></a>
-                        </div>
-                        <div class="cmsc22">
-                            <a class="click" href="https://github.com/nadineanareta/cmsc22-project" target="_blank"></a>
-                        </div>
-                        <div class="cmsc150">
-                            <a class="click" href="https://github.com/nadineanareta/cmsc150-project" target="_blank"></a>
-                        </div>
+            <!-- div for the featured personal photo -->
+            <div class="photo"><img class="img" src="nadz.png"></div>
+            <!-- div for the name -->
+            <div class="description">
+                <p class="im">i'm</p>
+                <p class="name">NADINE ANARETA</p>
+                <p class="desc">a bs computer science student</p>
+            </div>
+        </div>
+        <!-- div for the work secion
+            displays the previous projects -->
+        <div id="work">
+            <div class="project">PROJECTS</div>
+            <!-- div for each photo of previous projects
+                displays the description of each project when hovered
+                goes to a github repository of each project when clicked-->
+            <div class="img_proj">
+                <div class="img_list">
+                    <div class="proj cmsc12">
+                        <a class="click" href="https://github.com/nadineanareta/cmsc12-project" target="_blank"></a>
                     </div>
-
+                    <div class="proj cmsc22">
+                        <a class="click" href="https://github.com/nadineanareta/cmsc22-project" target="_blank"></a>
+                    </div>
+                    <div class="proj cmsc150">
+                        <a class="click" href="https://github.com/nadineanareta/cmsc150-project" target="_blank"></a>
+                    </div>
                 </div>
             </div>
-            <div id="skill_about">
-                <div class="skill">
-                    <p class="sk_head">SKILL</p>
-                    <ul>
-                        <li>Proficient in Python, Java, C, HTML, CSS, JavaScript, and R.</li>
-                        <li>Experienced in developing web applications using HTML, CSS, and JavaScript.</li>
-                        <li>Strong understanding and application of algorithms and data structures.</li>
-                        <li>Proficient in implementing algorithms and solving problems efficiently.</li>
-                        <li>Demonstrated programming skills through various projects.</li>
-                        <li>Excellent communication skills, both verbal and written.</li>
-                        <li>Proven ability to work effectively in a team environment.</li>
-                        <li>Strong problem-solving skills, with a logical and analytical approach to challenges.</li>
-                    </ul>
-                </div>
-                <div class="about">
-                    <p class="ab_head">AUTOBIOGRAPHY</p>
-                    <p class="auto">
-                        In the midst of uncertainty, I embarked on a path in computer science, unsure of what lay ahead. 
-                        The workload seemed daunting, and doubts crept in, making me question my abilities. 
-                        Comparing myself to peers only added to my uncertainty.
-                        However, I found strength in my support system - friends and family who stood by me during the toughest times. 
-                        With their encouragement, and the guidance of fellow computer science students, I learned to believe in myself.
-                        Today, I stand with newfound confidence, understanding that doubt is temporary. 
-                        I'm ready to embrace challenges with courage and resilience. I know I belong in this field, and with belief in myself and support from others, I'm prepared for whatever comes my way.
-                    </p>
-                </div>
+        </div>
+        <!-- div for the section of skills and autobiography -->
+        <div id="skill_about">
+            <!-- div section for the skill
+                in an unordered list -->
+            <div class="skill">
+                <p class="sk_head">SKILL</p>
+                <ul>
+                    <li>Proficient in Python, Java, C, HTML, CSS, JavaScript, and R.</li>
+                    <li>Experienced in developing web applications using HTML, CSS, and JavaScript.</li>
+                    <li>Strong understanding and application of algorithms and data structures.</li>
+                    <li>Proficient in implementing algorithms and solving problems efficiently.</li>
+                    <li>Demonstrated programming skills through various projects.</li>
+                    <li>Excellent communication skills, both verbal and written.</li>
+                    <li>Proven ability to work effectively in a team environment.</li>
+                    <li>Strong problem-solving skills, with a logical and analytical approach to challenges.</li>
+                </ul>
             </div>
-            <div id="contact">
-                <div class="footer">
-                    <img class="logo_footer" src="naaa logo.png">
-                </div>
-                <div class="social">
-                    <ul>
-                        <li>Nagcarlan, Laguna, Philippines 4002</li>
-                        <li class="links"><img src="email.png" height="12px">
-                            <a class="foot" href="https://mail.google.com/mail/#compose" target="_blank">naanareta@up.edu.ph</a>
-                        </li>
-                        <li class="links"><img src="github.png" height="12px">
-                            <a class="foot" href="https://github.com/nadineanareta" target="_blank">nadineanareta</a>
-                        </li>
-                        <li class="links"><img src="facebook.png" height="12px">
-                            <a class="foot" href="https://www.facebook.com/anareta.nadayn" target="_blank">Nadine Anareta</a>
-                        </li>
-                        <li class="links"><img src="instagram.png" height="12px">
-                            <a class="foot" href="https://www.instagram.com/na.anareta/" target="_blank">na.anareta</a>
-                        </li>
-                        <li><img src="phone.png" height="12px">  09XX XXX XXXX</li>
-                        <li class="links">
-                            <a class="foot" href="#home">BACK TO TOP</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- div section for the autobiography -->
+            <div class="about">
+                <p class="ab_head">AUTOBIOGRAPHY</p>
+                <p class="auto">
+                    In the midst of uncertainty, I embarked on a path in computer science, unsure of what lay ahead. 
+                    The workload seemed daunting, and doubts crept in, making me question my abilities. 
+                    Comparing myself to peers only added to my uncertainty.
+                    However, I found strength in my support system - friends and family who stood by me during the toughest times. 
+                    With their encouragement, and the guidance of fellow computer science students, I learned to believe in myself.
+                    Today, I stand with newfound confidence, understanding that doubt is temporary. 
+                    I'm ready to embrace challenges with courage and resilience. I know I belong in this field, and with belief in myself and support from others, I'm prepared for whatever comes my way.
+                </p>
             </div>
-        </body>
+        </div>
+        <!-- div for the contact footer -->
+        <div id="contact">
+            <!-- div for the logo -->
+            <div class="footer">
+                <img class="logo_footer" src="naaa logo.png">
+            </div>
+            <!-- div for each social media platforms
+                each list items are clickable and directed to a specific link-->
+            <div class="social">
+                <ul>
+                    <li>Nagcarlan, Laguna, Philippines 4002</li>
+                    <li class="links"><img src="email.png" height="12px">
+                        <a class="foot" href="https://mail.google.com/mail/#compose" target="_blank">naanareta@up.edu.ph</a>
+                    </li>
+                    <li class="links"><img src="github.png" height="12px">
+                        <a class="foot" href="https://github.com/nadineanareta" target="_blank">nadineanareta</a>
+                    </li>
+                    <li class="links"><img src="facebook.png" height="12px">
+                        <a class="foot" href="https://www.facebook.com/anareta.nadayn" target="_blank">Nadine Anareta</a>
+                    </li>
+                    <li class="links"><img src="instagram.png" height="12px">
+                        <a class="foot" href="https://www.instagram.com/na.anareta/" target="_blank">na.anareta</a>
+                    </li>
+                    <li><img src="phone.png" height="12px">  09XX XXX XXXX</li>
+                    <li><img src="copyright.png" height="12px"> Copyright Information | 2024</li>
+                    <!-- back to top link -->
+                    <li class="links">
+                        <a class="foot back" href="#home">BACK TO TOP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
 </html>
