@@ -3,14 +3,14 @@
 	padding: 0;
 }
 
-.menu{ /* style for the menu */	
+.menu{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
-.menu ul{ /* style for the content of the navigation bar */
+.menu ul{ 
 	min-width: 50px;
 	height: 75px;
 	display: flex;
@@ -22,11 +22,11 @@
 	z-index: 1;
 }
 
-.logo{ /* style for the logo */
+.logo{
 	height: 70%;
 }
 
-a{ /* style for individual items of the navigation bar */
+a{
 	list-style: none;
 	padding: 28px 15px;
 	color: #FE56A4;
@@ -35,7 +35,7 @@ a{ /* style for individual items of the navigation bar */
 	text-decoration: none;
 }
 
-a:hover{ /* style when hovering */
+a:hover{
 	color: white;
 }
 
@@ -44,86 +44,102 @@ a:hover{ /* style when hovering */
 	background: url(bg.png);
 	background-position: center;
 	background-size: cover;
+	display: flex;
 }
 
-.photo{
-	height: 90%;
-	left: 500px;
-	top: 50px;
-	position: relative;
+#work{
+	height: 600px;
+	background: url(bg1.png);
+	background-position: center;
+	background-size: cover;
+	display: block;
 	
 }
 
-.hello{ /* style for name*/
-	color: white;
-	font-family: 'Times New Roman', Times, serif, sans-serif;
-	font-size: 56px;
-	letter-spacing: 15px;
-	position: absolute;
-	top: 150px;
-	left: 210px;
+#skill_about{
+	height: 380px;
+	display: flex;
+	background-image: url(bg2.png);
+	background-position: center;
+	background-size: cover;
 }
 
-.world{ /* style for name*/
+#contact{
+	height: 200px;
+	background: url(bg.png);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+}
+
+.photo{
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.img{
+	height: 90%;
+}
+
+.hello_world{
+	flex: 1;
+	text-align: right;
+	display: block;
+}
+
+.description{
+	flex: 1.5;
+	text-align: left;
+	display: block;
+}
+
+.hello{
+	color: white;
+	font-family: 'Times New Roman', Times, serif, sans-serif;
+	font-size: 40px;
+	letter-spacing: 15px;
+	top: 150px;
+	position: relative;
+}
+
+.world{
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 72px;
 	letter-spacing: 10px;
-	position: absolute;
-	top: 200px;
-	left: 210px;
+	font-weight: bold;
+	position: relative;
+	top: 150px;
 }
 
 .im{
 	color: white;
-	font-family: Verdana, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 24px;
 	letter-spacing: 3px;
-	position: absolute;
+	position: relative;
 	top: 200px;
-	right: 610px;
 }
 
-.name{ /* style for name*/
+.name{
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 56px;
-	letter-spacing: 7px;
-	position: absolute;
-	top: 230px;
-	right: 75px;
+	letter-spacing: 5px;
+	position: relative;
 	font-weight: bold;
+	top: 200px;
 }
 
-.desc1{ /* style for name*/
+.desc{
 	color: white;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 17px;
 	letter-spacing: 4px;
-	position: absolute;
-	top: 300px;
-	right: 200px;
-}
-
-.desc2{ /* style for name*/
-	color: white;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 17px;
-	letter-spacing: 4px;
-	position: absolute;
-	top: 320px;
-	right: 210px;
-}
-
-#work{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 700px;
-	background: url(bg1.png);
-	background-position: center;
-	background-size: cover;
+	position: relative;
+	top: 200px;
 }
 
 .project{
@@ -131,56 +147,51 @@ a:hover{ /* style when hovering */
 	font-family: Verdana, sans-serif;
 	font-size: 38px;
 	letter-spacing: 10px;
-	position: absolute;
-	top: 535px;
-	left: 155px;
 	font-weight: bold;
-}
-
-hr{ /* sets the spacing for the items */
-	background:none;
-	clear:both;
-	float:none;
-	width:100%;
-	height:1px;
-	border:none;
-	margin:-1px 0;
+	position: relative;
+	display: block;
+	top: 50px;
+	padding-left: 150px;	
 }
 
 .img_proj{
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.img_proj ul{ /* style for the content of the navigation bar */
-	list-style: none;
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 20px;
+	position: relative;
+	top: 60px;
+}
+
+.img_list{
+	height: 400px;
+	width: 1200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
-.img_proj ul li{
-	background-size: cover;
-	padding: auto;
-}
 .cmsc12{
-	background-image: url(img12.png);
-	padding: 215px 78px;
+	height: 400px;
+	background: url(img12.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
 }
 .cmsc12:hover{
 	background-image: url(12_2.png);
 }
 
-
 .cmsc22{
+	height: 400px;
 	background-image: url(img22.png);
-	padding: 215px 102px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
 }
 
 .cmsc22:hover{
@@ -188,11 +199,67 @@ hr{ /* sets the spacing for the items */
 }
 
 .cmsc150{
+	height: 400px;
 	background-image: url(img150.png);
-	padding: 215px 126px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
 }
 
 .cmsc150:hover{
 	background-image: url(150_2.png);
 }
 
+.skill{
+	flex: 1;
+}
+
+.sk_head{
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 38px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	top: 60px;
+	padding-left: 150px;
+}
+
+.skill ul{
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	position: relative;
+	top: 70px;
+	left: 150px;
+	line-height: 25px;
+}
+
+.about{
+	flex: 1;
+}
+
+.ab_head{
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 38px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	top: 60px;
+	padding-right: 150px;
+}
+
+.auto{
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	position: relative;
+	top: 70px;
+	line-height: 25px;
+	padding-right: 100px;
+	text-align: justify;
+}
